@@ -14,6 +14,14 @@ export const TrackingState = {
   TRACKING: 'tracking',
 };
 
+function readViewportSize() {
+  const viewport = window.visualViewport;
+  return {
+    width: Math.max(1, Math.round(viewport?.width ?? window.innerWidth)),
+    height: Math.max(1, Math.round(viewport?.height ?? window.innerHeight)),
+  };
+}
+
 export function EyeTrackingProvider({ children }) {
   const [state, setState] = useState(TrackingState.DISCONNECTED);
   const [gazePosition, setGazePosition] = useState({ x: -1, y: -1 });
@@ -144,10 +152,11 @@ export function EyeTrackingProvider({ children }) {
   const sendScreenSize = useCallback((ws = wsRef.current) => {
     if (ws?.readyState !== WebSocket.OPEN) return;
 
+    const { width, height } = readViewportSize();
     ws.send(JSON.stringify({
       type: 'set_screen_size',
-      width: window.innerWidth,
-      height: window.innerHeight,
+      width,
+      height,
     }));
   }, []);
 
@@ -210,8 +219,9 @@ export function EyeTrackingProvider({ children }) {
     }
 
     setError(null);
+    sendScreenSize(ws);
     ws.send(JSON.stringify({ type: 'start_calibration', method }));
-  }, []);
+  }, [sendScreenSize]);
 
   const recalibrate = useCallback(() => {
     const ws = wsRef.current;

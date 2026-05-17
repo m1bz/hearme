@@ -1,5 +1,4 @@
 import { useCallback, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import { useEyeTracking, TrackingState } from '../../context/EyeTrackingContext';
 import './Calibration.css';
 
@@ -57,7 +56,6 @@ function SetupCheck({ item, ok }) {
 }
 
 export default function PreCalibration() {
-  const location = useLocation();
   const {
     state,
     faceDetected,
@@ -110,7 +108,6 @@ export default function PreCalibration() {
     ? `Turn ${formatAngle(faceMetrics.yaw_degrees)} | Nod ${formatAngle(faceMetrics.pitch_degrees)} | Tilt ${formatAngle(faceMetrics.roll_degrees)}`
     : 'Waiting for face measurements';
   const showCameraSwitcher =
-    location.pathname === '/patient' &&
     state === TrackingState.PRE_CALIBRATION &&
     availableCameras.length >= 2;
 

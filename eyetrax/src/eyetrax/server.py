@@ -44,6 +44,9 @@ from eyetrax.utils.video import list_available_cameras, open_camera_with_index
 class GazeServer:
     """WebSocket server bridging eyetrax gaze estimation to frontend."""
 
+    DEFAULT_SCREEN_WIDTH = 1920
+    DEFAULT_SCREEN_HEIGHT = 1080
+
     def __init__(
         self,
         camera_index: int = 0,
@@ -64,15 +67,17 @@ class GazeServer:
         self.calibrated = False
         self.running = False
         self.clients = set()
+        self.client_viewports = {}
 
         # Screen size (overridden by frontend)
-        self.screen_width = 1920
-        self.screen_height = 1080
+        self.screen_width = self.DEFAULT_SCREEN_WIDTH
+        self.screen_height = self.DEFAULT_SCREEN_HEIGHT
 
         # Calibration state
         self._calibrating = False
         self._last_gaze_position = None
         self.available_camera_indices = []
+        self._calibration_owner = None
 
     def _make_smoother(self):
         if self.filter_method == "kalman":
@@ -98,8 +103,19 @@ class GazeServer:
             await asyncio.Future()  # Run forever
 
     def _refresh_available_cameras(self):
-        cameras = list_available_cameras()
-        self.available_camera_indices = cameras or [self.camera_index]
+        detected_cameras = list_available_cameras()
+        cameras = set(self.available_camera_indices)
+        cameras.update(detected_cameras)
+
+        # Keep the active camera in the selector even if probing while it is
+        # already open makes OpenCV miss it temporarily.
+        if self.cap and self.cap.isOpened():
+            cameras.add(self.camera_index)
+
+        if not cameras:
+            cameras.add(self.camera_index)
+
+        self.available_camera_indices = sorted(cameras)
 
     def _connection_payload(self):
         return {
@@ -115,6 +131,30 @@ class GazeServer:
         self.gaze_estimator.reset_movement_center()
         self.smoother = None
         self._last_gaze_position = None
+        self._calibration_owner = None
+
+    def _sanitize_viewport(self, width, height):
+        width = max(1, int(width or self.DEFAULT_SCREEN_WIDTH))
+        height = max(1, int(height or self.DEFAULT_SCREEN_HEIGHT))
+        return width, height
+
+    def _set_client_viewport(self, websocket, width, height):
+        viewport = self._sanitize_viewport(width, height)
+        self.client_viewports[websocket] = viewport
+        return viewport
+
+    def _get_client_viewport(self, websocket):
+        return self.client_viewports.get(
+            websocket,
+            (self.DEFAULT_SCREEN_WIDTH, self.DEFAULT_SCREEN_HEIGHT),
+        )
+
+    def _activate_client_viewport(self, websocket):
+        width, height = self._get_client_viewport(websocket)
+        self.screen_width = width
+        self.screen_height = height
+        self._calibration_owner = websocket
+        return width, height
 
     def _open_camera(self, camera_index: int, *, allow_fallback: bool):
         previous_cap = self.cap
@@ -137,6 +177,11 @@ class GazeServer:
     async def _handle_client(self, websocket):
         """Handle a new client connection."""
         self.clients.add(websocket)
+        self._set_client_viewport(
+            websocket,
+            self.DEFAULT_SCREEN_WIDTH,
+            self.DEFAULT_SCREEN_HEIGHT,
+        )
         print(f"[gaze-server] Client connected ({len(self.clients)} total)")
 
         try:
@@ -154,6 +199,9 @@ class GazeServer:
             pass
         finally:
             self.clients.discard(websocket)
+            self.client_viewports.pop(websocket, None)
+            if self._calibration_owner is websocket:
+                self._calibration_owner = None
             print(f"[gaze-server] Client disconnected ({len(self.clients)} total)")
 
     async def _handle_message(self, websocket, raw_message: str):
@@ -170,9 +218,14 @@ class GazeServer:
         msg_type = msg.get("type")
 
         if msg_type == "set_screen_size":
-            self.screen_width = int(msg.get("width", 1920))
-            self.screen_height = int(msg.get("height", 1080))
-            print(f"[gaze-server] Screen size set to {self.screen_width}x{self.screen_height}")
+            width, height = self._set_client_viewport(
+                websocket,
+                msg.get("width"),
+                msg.get("height"),
+            )
+            print(
+                f"[gaze-server] Viewport for client updated to {width}x{height}"
+            )
 
         elif msg_type == "start_calibration":
             method = msg.get("method", "9p")
@@ -430,8 +483,14 @@ class GazeServer:
         self._calibrating = True
         self.calibrated = False
         self._last_gaze_position = None
+        viewport_width, viewport_height = self._activate_client_viewport(websocket)
 
         try:
+            print(
+                "[gaze-server] Starting calibration using viewport "
+                f"{viewport_width}x{viewport_height}"
+            )
+
             # Notify calibration starting
             await self._broadcast({
                 "type": "calibration_status",
@@ -469,7 +528,7 @@ class GazeServer:
                     (1, 0), (0, 1), (2, 1), (1, 2),
                 ]
 
-            pts = compute_grid_points(order, self.screen_width, self.screen_height)
+            pts = compute_grid_points(order, viewport_width, viewport_height)
             total_points = len(pts)
 
             # Collect calibration data
