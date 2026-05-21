@@ -1,0 +1,603 @@
+
+<p><strong><ac:structured-macro ac:name="toc" ac:schema-version="1" ac:macro-id="cb909f53-d195-4f3e-a274-61da1ee7a79d" /></strong></p>
+<h2><strong>Personal questions about testing (Interviewers Community)</strong></h2>
+<ol>
+<li><strong>Tell me about your experience in Testing. </strong>(Sabri) <strong>(this is very personal, you can talk about: your current and previous roles and responsibilities in projects, testing models, methodologies that were used for testing, your skills and expertise related to test management tools, i<span style="color:var(--ds-text,#333333);">f you are from automation, performance or security background then the tool and language used by you</span>)</strong><br /><em><strong>Example 1:</strong></em> I have 7 years of experience in manual frontend and backend testing. I am also c<span style="color:var(--ds-text-accent-purple-bolder,#352c63);">ertified with ISTQB CTFL and ISTQB CTFL-AT. In my past experiences, I played a proactive role in project success by engaging throughout the entire End-to-End Delivery Lifecycle. I'm well-versed in methodologies like Scrum and Kanban, effectively applying them to navigate project intricacies. </span><span style="letter-spacing: 0.0px;">My most recent role focuses on Salesforce testing, where I created test cases using Gherkin syntax, ensured Salesforce object setup, and validated user access. In a previous role, I played a crucial part in a Payments Gateway project, engaging with it from sprint 0. Following the Scrum methodology, I actively contributed to task estimation, progress updates, and overall team alignment. </span><span style="letter-spacing: 0.0px;">My technical skill set extends across various facets of testing, including Regression Testing, Integration Testing, Exploratory Testing, Smoke Testing, Component Testing, Accessibility Testing, Game Testing, API/Service Testing, Mobile Testing, Cross-browsing Testing, and Service Platform - CRM Testing. </span><span style="color:var(--ds-text-accent-purple-bolder,#352c63);">I have experience with Testing Management Tools, including Testlink, SpiraTest, JIRA, JIRA Zephyr, X-Ray, and Trello. I've utilized these tools to create detailed test cases and streamline the defect tracking process for optimal efficiency.</span><br /><span style="color:var(--ds-text-accent-purple-bolder,#352c63);"><br /><em><strong>Example 2:</strong></em> Automation (?)<br /><br /></span></li>
+<li><strong>Tell me about your experience at Endava.</strong> (Sabri) <strong>(this is very personal, you can talk about your recent roles and projects at Endava) <ac:image ac:alt="(tick)"><ri:url ri:value="https://confluence.endava.com/s/-8ae3xu/9012/tu5x00/_/images/icons/emoticons/check.svg" /></ac:image></strong><br /><span style="color:var(--ds-text-accent-purple-bolder,#352c63);">My initial project at Endava involved being part of a substantial team tasked with testing a 3D experience, c</span><span>onducting research and acquiring knowledge about the system under test, including 3D game testing, and performing exploratory testing to gain a deeper understanding of the system and its documentation. <span style="color:var(--ds-text-accent-purple-bolder,#352c63);">Transitioning into a Payments project that extended until September 2023, my role evolved into the development of payment component</span></span>, employing tools such as JIRA and Bitbucket, <span>using CATS (Contract driven Auto-generated Tests for Swagger) for automated testing, and utilizing Intellij to run the backend local application and check logs for testing purposes. In my most recent role, I worked as a tester for a versatile payment solutions provider and credit card processor based in the United States, working with Scrum methodology, testing Salesforce platform, managing bugs and their lifecycle in X-Ray, and maintained daily direct communication with developers and stakeholders.</span><br /><br /></li>
+<li><strong>How do you get along working as a team?</strong> (Sabri) <ac:image ac:alt="(tick)"><ri:url ri:value="https://confluence.endava.com/s/-8ae3xu/9012/tu5x00/_/images/icons/emoticons/check.svg" /></ac:image><br /><span style="color:var(--ds-text-accent-purple-bolder,#352c63);">I really enjoy working with team members. Communication and respect are the most important to me. I like sharing my skills and learning from others, and I've had positive experiences collaborating in different projects. I've been successfully worked in both large teams and smaller projects with fewer engineers, I think I have the ability to adapt to diverse groups. And also as a team player, I like to support and assist my colleagues.<br /></span></li>
+<li><strong>How are you at work? <ac:emoticon ac:name="tick" /> (this is very personal but this is a good example)</strong><strong><br /></strong>Important qualities a tester should have are:<strong><br />- </strong>a <span style="text-decoration: underline;">good communication</span> as we will have to be in contact with team many members and stakeholders, so communication and interpersonal skills to express your point of view effectively and handle difficult situations is necessary<br /><strong>- </strong><span style="text-decoration: underline;">organized</span> to create working testing plan and manage time effectively as each day will be different and you will need to know how to prioritize tasks<br /><strong>-</strong> <span style="text-decoration: underline;">focused on details / details oriented</span> will be super useful during testing, even if hard to develop artificially<br />- <span style="text-decoration: underline;">proactive</span> and able to put limits and say no, or share blockers and risks on time<br />- <span style="text-decoration: underline;">creative</span> to not restrict your thinking when testing and as every client, project will be different<br />- <span style="text-decoration: underline;">curious</span> as you have to question everything and anything and imagine all the scenarios to test<strong><br />- </strong><span style="text-decoration: underline;">logic</span><span> as testing is much more than run test cases<br /></span><strong><br /></strong></li>
+<li><strong><strong>What position do you take in conflicts? <ac:emoticon ac:name="tick" /> (this is very personal but this is a good example)</strong></strong><strong><strong><br /></strong></strong>
+<p><span>Meet with each part individually so they have a chance to speak freely from his/her perspective. It is important to have an open communication space. <br />Also, take time to calm down before speaking.<br />We recommend to take a look at the internal tools 5 voices of the Giant OS and the TEAM framework. <strong>(if you mention this to the client, your need to explain the meaning of theses tools)</strong><br /><br /></span></p></li>
+<li><strong>What were the biggest problems you had to face and how did you solve them? </strong>(Mitza) <ac:emoticon ac:name="question" /><br />
+<p><span><em><strong>[Developers saying that it isn't a bug]</strong></em> </span>After I found myself in this situation too often, I suggested to set a Bug Triage meeting involving all the roles in the project (Project Manager, Product Owner, Business Analyst, Designer, Developers and Testers), in this way, when the devs said that it wasn't a bug, I was able to ask and get an immediate answer from the others team members, also I got the chance to add any missing clarification to the ticket for the bug fixing or the non-bug result.<br /><strong><em>[An existent project doing formal testing by first time with a release coming soon]</em> </strong>First step is set the expectation that it will be impossible to cover all in the short time, next step is stablish a priority list of the different functionalities to be covered determining which are the critical parts of the project/application that need to be tested asap and which one can wait, and covering just the positive tests in the first round, leaving the negative test for a second round that it could be complete after the release in case the time doesn't allow to do it before. In this way, we start to build a formal testing documentation(test cases, test suites, execution reports) for the next release, also complementing with exploratory testing sessions to give a minimal covered to the full application.  <br /><br /></p></li>
+<li><strong>Do you participate in any forums? </strong>(Sabrina Noce)<strong> <ac:emoticon ac:name="tick" /></strong><br /><span style="color:var(--ds-text-accent-purple-bolder,#352c63);"><strong><em>Negative:</em> </strong>I have never participated in a forum before, but I think it can be a great place to share knowledge, learn new testing techniques, and stay up to date with the latest industry trends. I also think forums can be a great resource for solving complex testing problems.<br /><em><strong>Positive:</strong></em> I have participated in the Testing week organized by Endava, where I improved my technical skills related to automation, manual, leadership, mobile, game testing, etc. I think is a good place to learn and share the knowledge between the teammates.<br /><br /></span></li>
+<li><strong>Do you follow any referent? </strong>(Sabrina Noce) <ac:emoticon ac:name="tick" /><br />Yes, I follow some referents: Nadia Soledad Cavalleri, Gustavo Terrera and Nazareno Rivero. <span style="color:var(--ds-text-accent-purple-bolder,#352c63);">Several videos from Nadia have helped me solidify techniques in manual software testing. I have also consulted videos and documentation from Gustavo regarding the application of Agile methodology in testing. Finally, Nazareno has been instrumental in my learning about game testing.<br /></span><span style="color:var(--ds-text-accent-purple-bolder,#352c63);">Also Federico Toledo, Lisa Crispin, Janet Gregory, Andrew Knight, etc (read about them).<br /><br /></span></li>
+<li><strong>Do you read or did you read any books about testing? </strong>(Sabrina Noce)<strong> <ac:emoticon ac:name="tick" /></strong><br />Yes, I read Game testing all in one, also ISTQB foundations of software testing, <span style="color:var(--ds-text-accent-purple-bolder,#352c63);"><span style="color:var(--ds-text-accent-purple-bolder,#352c63);">which helped me prepare for the ISTQB certification exam.<br /></span></span>
+<p>Agile Testing: A Practical Guide for Testers and Agile Teams (read about it).</p><span style="color:var(--ds-text-accent-purple-bolder,#352c63);"><br /></span></li>
+<li><strong>How do you keep up to date? </strong>(Ruben Aleman)<strong> <ac:emoticon ac:name="tick" /> </strong><br />IT information is pretty much everywhere, there are several web pages and platforms with a lot of information regarding new technologies (LinkedIn, <a href="http://testingtools.com">testingtools.com</a>), their implementation and demand. In some situations I got to know new technologies while looking for real projects problems solutions.<br /><br /></li>
+<li><strong>How to escalate the concern of lack of time? </strong>(Ruben Aleman)<strong> <ac:emoticon ac:name="tick" /></strong><br />If for some reason this risk was not being identified during the sprint planning, I would call for a meeting with my team to communicate the situation and check the current sprint commitments and their priorities along with the work pending to be done, based on that we would be able to make a decision on how to proceed in this situation.<br /><br /></li>
+<li><strong>What motivates you to be in QA? </strong>(Ruben Aleman)<strong> <ac:emoticon ac:name="tick" /></strong><br />The factors that motivates me to be in QA are the possibility of exploring any software application deeply, thinking out of the box while defining the test cases to be executed and having the responsibility of making a final statement regarding the quality of a product. <br /><br /></li>
+<li><strong>How do you think the relationship between QA and Dev should be?</strong> (Gisela Vivas) <ac:emoticon ac:name="tick" /><br /><span style="color:var(--ds-text-accent-purple-bolder,#352c63);">The relationship between QA and Dev should be built on mutual trust, respect, and collaboration, with both parties working together towards the common goal of delivering high-quality software.<br /></span>QA and Dev should work collaboratively throughout the development process. QA should be involved early in the development process, preferably during the design and planning phases. This can help identify potential issues early on and avoid costly rework and delays later.<br />QA and Dev should have clear communication channels to exchange feedback, ideas, and concerns. <br />Both QA and Dev should have shared responsibility for the quality of the software.<br /><br /></li>
+<li><strong>What challenges of being a QA?</strong> (Gisela Vivas) <ac:emoticon ac:name="tick" /><br />Being a tester professional can be a challenging but rewarding role. <br />Communication can be a major challenge in the QA process. Testers may need to communicate with multiple stakeholders, including developers PO, etc<br />Requirements can change frequently throughout the development process. Qa may need to adjust their testing strategies and plans to account for changes in the requirements.<br />Testers need to have a solid understanding of technical concepts and software development technologies. <br />Testers often have to work under tight deadlines, which can lead to increased pressure and stress.<br /><br /></li>
+<li><strong>How to improve communication - tools you can use? </strong>(Gisela Vivas) <ac:emoticon ac:name="tick" /><br />There are many tools available to help testers improve communication with developers and other team members. The key is to choose the tools that work best for your team and project and to ensure that everyone is on the same page when it comes to communication methods and expectations. <br />Tools: <br />Issue-tracking tools like Jira, and Trello can be used to track and manage tasks and issues. <br />Tools like Slack, Microsoft teams zoom can be used for real-time communication and collaboration <br />Documentation tools like Google doc, confluence can be used to create and share project documentation, test plans, etc<br />Code review tools like GitHub, GitLab, or BitBucket can be used to review code changes and provide feedback<br /><br /></li>
+<li>What are your good practices at work? (Mitza)<br /><ac:emoticon ac:name="question" /><br /><br /></li>
+<li><strong>How do you see yourself in two years? </strong>(Vane Maldonado) <ac:emoticon ac:name="tick" /><br /><strong>Example 1:</strong> I see myself as an automation profile. Maybe I'll be able to do technical and final automation interviews by myself and give talks about different topics. Also, I can study an ISTQB certification.<br /><strong>Example 2:</strong> In the next years I would like to consolidate my position as a referent on automation testing, for the testing community, the company and clients. Also, I see myself leading teams, building testing strategies and giving support to managers and clients in the decision related to testing.(Mitza)<br /> <strong>Example 3: </strong>I see myself leading multiple teams at a large client. Working as a team. Giving support to the teams, to the discipline, to my coachees and being able to share my experience with those who are just starting out in the world of testing.<br /><br /></li>
+<li><strong>How do you get information when you feel like you're stuck? </strong>(Vane Maldonado) <ac:emoticon ac:name="tick" /><br />It depends on the situation, sometimes I look for information on the internet or ask a coworker. I like to solve problems on my own, but if I see that take me a lot of time, I usually ask for help on the daily so someone from the team can give me a hand.<br />Also, at Endava we have the communities for specific topics or technologies, so usually I join those meetings and I raise my concerns.<br />Also, I know that I can ask for help to my career coach.<br /><br /></li>
+<li>What questions can you think of that you could ask the client during the interview? (Mitza)<br /><ac:emoticon ac:name="question" /> <br /><br /></li>
+<li>Have you ever worked on a stressful project?  (Mitza)<br /><ac:emoticon ac:name="question" /> </li></ol>
+<p><br /></p>
+<h2><strong>Technical testing questions (Interviewers Community)</strong></h2>
+<p>21. What methodologies did you work with? (similar to question 38)</p>
+<p><br /></p>
+<p>22. <strong>Did you work with agile methodologies</strong>? (Mitza) <ac:emoticon ac:name="tick" /><br /><strong>[Scrum]</strong> Yes, I worked with Scrum using sprints of 2 weeks, we had planning ceremony at the beginning of the sprint, daily stand up meetings to give our daily status, check the priorities and report any blockers we could have, and at the end of the sprint we do a demo to the stakeholders about the  progress made during the sprint and a retrospective ceremony to detect points of improvements.<br /><strong>[Kanban]</strong> I worked with Kanban too using a prioritized backlog and taking the task at the top of the backlog with the highest priority. This methodology is very good when the work is ‘on demand’ and the priorities change often causing that it’s not possible to plan the work to include in a sprint.<br /><strong>[Scrumban]</strong> Also, I worked with Scrumban that it’s a mix of these 2 adapted to the client necessities, in our case, we used the prioritized backlog from Kanban and the sprints from Scrum to review the progress made by the team and make retrospectives.<em style="letter-spacing: 0.0px;"><br /><br /></em></p>
+<p>23. <strong>How should QA work in agile environments</strong>? (Mitza) <ac:emoticon ac:name="tick" /><br />Once the requirements are available, QA team should start to analyze them and create the scenarios to be tested, in this way, when the development is ready to be tested, the scenarios are also ready to be executed by the testers. It’s important to be aligned with the priorities and the development plan to produce the scenarios that will be required first, and stay aware about any change in the requirements to update the scenarios written and create new scenarios if it’s necessary.<em style="letter-spacing: 0.0px;"><br /><br /></em></p>
+<p>24. <strong>What mistakes did you make? Why? How did you solve them?</strong> (Mitza) <ac:emoticon ac:name="tick" /><br />At the beginning of my career I reported as bugs some changes in the requirements because I wasn’t aware of theses changes. <br />Other mistake I did it was don’t agree the way to report the incidents to the team, so the team wasn’t aware about these issues. <br />Those two mistake were solved improving the communication with the team and defining processes and channels of communication to keep everybody in the same page.<em style="letter-spacing: 0.0px;"><br /><br /></em></p>
+<p>25. <strong>How do you run tests when time is short? </strong>(Dafni) <ac:emoticon ac:name="tick" /><br />When I am short on time, I prefer to check that all aceptance criterias are met and then to run exploratory testing over the US.<br />Also identify the modules affected by the new changes.<br />Check the business priorities with the client.<em><br /><br /></em></p>
+<p>26.<strong> What approach do you use? </strong>(Dafni) <ac:emoticon ac:name="tick" /><br />Exploratory testing. that is an approach to software testing that is often described as simultaneous learning, test design, and execution.<em><br /><br /></em></p>
+<p>27.<strong> How do you document? </strong>(Dafni) <ac:emoticon ac:name="tick" /><br />Creating the test cases but without steps, just the tittle or documenting only the scenarios tested on the US with the corresponding defects. (related to the question 26)<em><br /><br /></em></p>
+<p>28. How do you scale defects? Who do you assign them to? <br /><ac:emoticon ac:name="question" /> <br /><br /></p>
+<p>29. To whom are questions associated with US escalated? <br /><ac:emoticon ac:name="question" /> <br /><br /></p>
+<p>30. Have you helped other people in the UAT processes? <br /><ac:emoticon ac:name="question" /> <br /><br /></p>
+<p>31.<strong> What do you do when you don't have documentation? </strong>(Tony) <ac:emoticon ac:name="tick" /><strong><br /></strong>It depends. If I don't have anything (documentation, a user story, or any card in the backlog used by the company) I DM or set up a meeting with the dev that has worked that and start making questions on what he/she has done, and why work in that way. In my experience when you do this a couple of questions are raised that make the dev notice that maybe something was missing and I start working focusing on that.<br />I also send to the BA or Product Owner or any other point of contact a very small, but very focused set of behaviors writting in BDD to make sure that I'm understanding the expected behavior correctly, and if I have the time create at least the test cases.<br /><br />In case that we dont have anyone to ask the questions, we will do exploratory testing and document the scenarios covered.<br /><br /></p>
+<p>32.<strong> Have you ever done production support? </strong>(Tony) (This is a personal answer) <ac:emoticon ac:name="tick" /><strong><br /></strong>Yes. I have worked monitoring production servers using differents tools like Grafana and logging tools like Kibana to create searchs and views that allows to check if the numbers of errors or the use on the app has increase, decrease or deviate. I also have created alerts that triggers when a server stop logging.<br /><br /></p>
+<p>33.<strong> Have you tried applications with a web interface? </strong>(Tony) <ac:emoticon ac:name="tick" /><strong><br /></strong>Yes. My main knowledge is on API testing, but I offen do some UI testing. When I do this I make sure to check different resolutions and browser to make sure that everithing is working fine no matter what monitor or device the user is using.<br /><br /></p>
+<p>34. <strong>How do you defend your position in a reported defect when they want to change its severity?</strong> (Mitza) <ac:image ac:alt="(tick)"><ri:url ri:value="https://confluence.endava.com/s/-8ae3xu/9012/tu5x00/_/images/icons/emoticons/check.svg" /></ac:image><br />First of all, I'll make sure they are not confusing priority with severity by explaining that severity is the impact of the defect in the application, meanwhile priority is about how important is fix the defect. If after the clarification I confirm they want to change the severity, I'll ask them about their fundaments and I'll expouse mine to finally find an agreement.<br /><br /></p>
+<p>35. <strong>What do you know about the principles of testing?</strong> (Reference: ISTQB Foundation) (Mitza) <ac:image ac:alt="(tick)"><ri:url ri:value="https://confluence.endava.com/s/-8ae3xu/9012/tu5x00/_/images/icons/emoticons/check.svg" /></ac:image><br />The 7 principles of testing are:</p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li class="TrT0Xe" style="list-style-type: disc;"><em>Testing shows the presence of defects</em>: Even if defects are not found, this doesn't mean they don't exists.</li>
+<li class="TrT0Xe" style="list-style-type: disc;"><em>Exhaustive testing is impossible</em>: Determine the optimal amount of testing based on the risk assessment.</li>
+<li class="TrT0Xe" style="list-style-type: disc;"><em>Early testing</em>: Testing should start as early as possible, when it's cheaper fix software and design.</li>
+<li class="TrT0Xe" style="list-style-type: disc;"><em>Defect clustering</em>: 80% of the problems are found in the 20% of the modules.</li>
+<li class="TrT0Xe" style="list-style-type: disc;"><em>Pesticide paradox</em>: Repeat the same set of tests become useless to discover new defects.</li>
+<li class="TrT0Xe" style="list-style-type: disc;"><em>Testing is context dependent</em>: Different systems are tested in different ways. Testing methodologies and techniques are choose based on the system to test.</li>
+<li class="TrT0Xe" style="list-style-type: disc;"><em style="letter-spacing: 0.0px;">Absence-of-errors fallacy</em><span style="letter-spacing: 0.0px;">: A system 99% bugs-free still can be unusable if it doesn't fulfill the user's need and requirements.</span></li></ol></li></ol>
+<p><br />36. <strong>What are positive and negative tests?</strong> (Mitza) <ac:image ac:alt="(tick)"><ri:url ri:value="https://confluence.endava.com/s/-8ae3xu/9012/tu5x00/_/images/icons/emoticons/check.svg" /></ac:image><br />Positive tests are those which validated that the application is working correctly in the expected conditions, in the meanwhile, the negative tests are those which validated the ability of the application to response to the unexpected or wrong conditions.<br /><br /></p>
+<p>37. <strong>What is the difference between priority and severity?</strong> (Mika)</p>
+<p class="p1">Defect Severity means how the defect has affected the application’s functionality. There are levels of severity as Critical, High, Medium and low.</p>
+<ul>
+<li class="p1">Critical: A defect has complete blocked the functionality of the application. The user cannot proceed on the functionality.</li>
+<li class="p1">High: comparing with the previously (Critical) in this case the defect does not affect the whole application but affect significant system functionalities. It is still risky for user experiencie and business.</li>
+<li class="p1">Medium: The behavior of an application is different than expected, but this does not affect functionality in a risky way.</li>
+<li class="p1">Low: Defect has a minor affect product operation. It could be a domestic nature o look and feel defects that don’t affect the application functionality but they are valid defect. The fixed could improve the good experience when user is navigating in the application (UX)</li></ul>
+<p class="p1">Defect Priority means how fast defect should be fixed and it depends on the priority and the business perspective of the project. For example a low defect related to spelling mistake could has high priority if it related to law agreement.</p>
+<ul>
+<li class="p1">High: These bugs may affect the whole application. They need resolution as soon as possible, and assigning a high priority ensures low resolution time. Usually, a high severity means a high priority as well, but it depends on the business rule as we see in the example above.</li>
+<li class="p1">Medium: The defects which don’t affect business and customers typically get Medium priority. They are less urgent than high-priority defects and can be fixed when the development team has the bandwidth to take them up. </li>
+<li class="p1">Low: As they have a minor affect product operation, they could be fixed after mediums defects. They don’t have a significant impact if they are not resolve immediately but they are still defects. </li></ul>
+<p>38. <strong>What methodologies do you know?</strong> (Mika)</p>
+<p class="p1">The software testing methodologies are the strategies, processes, or environments used for testing in SDLC (Software Development Life Cycle). The most common types are:</p>
+<ul>
+<li class="p1"><strong>Waterfall Model:</strong> Formal testing starts once the development phase is completed. The waterfall testing model works well for small and less complex projects. However, if the requirements are not clearly defined upfront, it is extremely difficult to go back and make changes to completed phases. The errors that are found later in development are costly to fix.</li>
+<li class="p1"><strong>Agile Model:</strong> It is most suitable for larger development projects. Agile testing is an incremental model where testing is done at the end of each increment or iteration. Additionally, the entire application is tested at the end of the project. There is less risk in the development process with the Agile model because each team member understands what has been completed or not. Project development outcomes are usually better with Agile when there is a strong and experienced project manager who can make quick decisions.</li>
+<li class="p1"><strong>DevOps Approach and Continuous Testing: </strong>By taking a DevOps approach to testing, or continuous testing, there is collaboration with operations teams throughout the entire product lifecycle. Through this collaboration, development and operations teams do not wait until the software is built or nearly finished to conduct testing. This means the software delivery process is faster, defects are detected earlier, and their resolution is less costly. Continuous testing uses automated testing and automation tools as components of the software development pipeline to provide immediate feedback on any business risks that may exist.</li></ul>
+<p><span style="letter-spacing: 0.0px;">39. <strong>What would you suggest to do agile or try to go towards that methodology?</strong> (Mika)</span></p>
+<p><span style="letter-spacing: 0.0px;">It's depends on the project logic as we saw in the previously question. </span></p>
+<p>40. What is your definition of testing? (Guille)</p>
+<p>41. What testing tools do you know? (Guille)</p>
+<p>42. What characteristics/skills should a tester have? (Guille)</p>
+<p>43. <strong>What are the functions of a tester?</strong> (Natasja) <ac:image ac:alt="(tick)"><ri:url ri:value="https://confluence.endava.com/s/-8ae3xu/9012/tu5x00/_/images/icons/emoticons/check.svg" /></ac:image></p>
+<ul>
+<li>Understanding and reviewing requirements</li>
+<li>
+<p>Creating test plan, strategy, and test cases</p></li>
+<li>Keep Test documentation up to date</li>
+<li>Do Test execution</li>
+<li>Reporting defects and keep track of defects</li>
+<li>Maintain a good communication between different team members and stakeholders</li>
+<li>Participating in different kind of meetings (refinements, daily, planning, retrospective etc..)</li></ul>
+<p>44. <strong>What do you consider to be the biggest responsibility of the QA team?</strong> (Natasja) <ac:image ac:alt="(tick)"><ri:url ri:value="https://confluence.endava.com/s/-8ae3xu/9012/tu5x00/_/images/icons/emoticons/check.svg" /></ac:image></p>
+<p>The biggest responsibility of a QA team is to identify defects, vulnerabilities, or issues that require attention to enhance the software's quality.</p>
+<p>45. <strong>What is the testing process of a project, from start to finish?</strong> (Natasja)</p>
+<ul>
+<li>requirements analyses</li>
+<li>test planning</li>
+<li>test design / test case development</li>
+<li>environment set up</li>
+<li>test execution</li>
+<li>test completion</li></ul>
+<p><ac:image ac:height="150"><ri:attachment ri:filename="image-2023-11-28_16-39-39.png" /></ac:image></p>
+<p>46. What does a Test Plan consist of? What are the main elements to include? (Eli)</p>
+<p>47. How would you write a Test Plan? (Eli)</p>
+<p>48. What type of test do you know? Give an example of each one. (Eli)</p>
+<p>49. <strong>What are functional tests? What steps should be followed in functional tests?</strong> (Ruben)<br />Functional tests are tests that focus on what the system or application does (instead of how the system or application does it). They evaluate the output, after an input is provided to the system, without concerning about the process in the middle. The most common steps to follow are:<br />Identify test scenarios</p>
+<p>Define test scenarios input</p>
+<p>Design test cases</p>
+<p>Execute test cases</p>
+<p>Analyze results</p>
+<p><br /></p>
+<p>50. <strong>What are non-functional tests? What steps should be followed in non-functional testing?</strong> (Ruben)</p>
+<p>Non-functional tests are tests that focus on how the system behaves (instead of what the system does). They evaluate aspects like performance, stability, usability, etc. The steps to follow during the non-functional testing process are the following:</p>
+<p>Identify test scenarios</p>
+<p>Select test tools</p>
+<p>Plan test environment</p>
+<p>Design test cases</p>
+<p>Execute test cases</p>
+<p>Monitor and measure</p>
+<p>Analyze results </p>
+<p>51. <strong>What do you know about test levels? (Unit tests, integration tests, system tests and acceptance tests)</strong> (Ruben)</p>
+<p>Test levels define the different tests that are executed during each phase of the SDLC (software development life cycle). The idea is to test the application as it is being developed, instead of having a single testing phase to be executed once the application is developed. </p>
+<p>Unit test: Test individual component</p>
+<p>Integration test: Test integrated components</p>
+<p>System test: Test the entire system</p>
+<p>Acceptance test: Test the final system</p>
+<p>52. <strong>What is a Test Case?</strong> (Dafni)<br />ISTQB defines a test case <span style="color:var(--ds-text,#333333);">as </span>a set of preconditions, inputs, actions (where applicable), expected results, and post-conditions, developed based on test conditions<span style="color:var(--ds-text,#333333);">. Test cases are step-by-step instructions to the tester to perform validation of specific aspects of the system or application functionality.</span></p>
+<p>53. <strong>What is a test case made of?</strong> (Dafni)<br />The components of a TC are: ID, title, description, priority, preconditions, steps, expected result, execution type, status, comments.</p>
+<p>54. <strong>What characteristics does a good test case have?</strong> (Dafni)<br />Maintainable, Reusable, Detailed, <span>Traceable to requirements, Clear, concise, and complete, Easily identifiable with its name.</span></p>
+<p>55. What is exploratory testing?</p>
+<p>56. What is an integration test? What is the approach like when performing integration tests?</p>
+<p>57. What is a BUG?</p>
+<p>58. How is a BUG reported?</p>
+<p>59. What is the life cycle of a BUG?</p>
+<p>60. What are smoke tests?</p>
+<p>61. What are regression tests?</p>
+<p>62. When is a regression done?</p>
+<p>63. What is the criterion that we use by regulation to select the test cases to test in the regression?</p>
+<p>64. What estimation methods do you know?</p>
+<p>65. What are the different levels of evidence?</p>
+<p>66. What are integration/service tests?</p>
+<p>67. What integration tools/services do you know?</p>
+<p>68. What are the entry criteria to start testing?</p>
+<p>69. What are the exit criteria to stop testing?</p>
+<p>70. What is an AC (Acceptance Criteria)?</p>
+<p>71. Have you worked with JIRA?</p>
+<p>72. How to track a test case in Jira?</p>
+<p>73. How to track a bug in Jira?</p>
+<p>74. If you had to test an object, eg toothbrush/watch/pen, how would you test it and why?</p>
+<p>75. How comfortable do you feel working with a blank sheet, what would you do when you need to look for an answer?</p>
+<p>76. In the case of bug fixing for production bugs, what regression would you cover based on the fixes?</p>
+<p>77. What regression strategy would you apply when you are working on a production support project?</p>
+<p>78. What is your experience with manual testing and automation testing in the before projects?</p>
+<p>79. Capture a screenshot of a web page, use AI to create the test cases, think the scenarios to different browser, devices (notebook, laptop, mobile)</p>
+<p>80. How do you use IA to write the test cases to implement BDD methodology?</p>
+<p><br /></p>
+<h2><strong>Leadership testing question (Management Community)</strong></h2>
+<ol>
+<li><span>Did you handle a team of test engineers or QA professionals in your earlier role?</span></li>
+<li><span>What do you think of test leads writing test cases?</span></li>
+<li><span>How do you set your team’s objectives?</span></li>
+<li><span>Which testing tools are you familiar with?</span></li>
+<li><span>Are you familiar with automation and what do you think of it?</span></li>
+<li><span>Do you know what Requirement Traceability Matrix is? What are its uses?</span></li>
+<li><span>What is a Test Plan?</span></li>
+<li>What are some risks you might encounter when testing a project?</li>
+<li><span>What are the different ways to manage or mitigate risks in a Test Project?</span></li>
+<li><span>What are the good practices that you follow?</span></li>
+<li><span>Have you been involved in test estimation? What are the techniques that you use?</span></li>
+<li><span>What are the best practices for test estimation?</span></li>
+<li><span>What is Configuration Management? </span><span>Explain the process.</span></li>
+<li>What is SDLC Methodology? Which are the stages?</li>
+<li><span>What soft/people skills should a Test Lead/QA Manager have? </span></li>
+<li><span>How can you determine the quality of the test execution?</span></li>
+<li><span>Explain bug leakage and bug release. ( bug leakage: bugs found on Prod environment, bug release: bugs are identified but included in release may be because low severity ) </span></li>
+<li><span>What is Bug triage? ( meeting to prioritize and analyze bugs )</span></li>
+<li>Have you ever disagreed with a team member? How did you resolve the disagreement?</li>
+<li>
+<p>Which QA processes should be manual? Which should be automated?</p></li></ol>
+<p><br /></p>
+<h2><strong>Mobile Testing questions (Andre)</strong></h2>
+<p>1.    Explain what is the difference between Web testing and WAP testing?<br />WAP Testing: It is the testing the WAP (Wireless Application Protocol) used in network applications <br />Web Testing: It is related mainly to the testing of web applications such as websites and portals</p>
+<p>2.    List out some of the automated mobile testing tools?<br />Katalom, Appium, Espresso, XCTest Robotium.</p>
+<p>3.    Explain what is the difference between simulator and emulator?<br />The emulator is based on hardware and software wherein simulator is based on software. Simulation is a system that behaves similar to something else while emulation is a system that exactly behaves like something else.</p>
+<p>4.    List out the types of mobile app testing?<br />•    Usability testing: Usability Testing is a non-functional testing technique to measure the level of how a user is comfortable in using a particular application. It is the best way to understand how a real-time user experiences the application ie whether it is flexible in handling controls and checking its ability to meet its goals.<br />•    Compatibility testing: Testing of the application in different mobiles devices, browsers, screen sizes and OS versions according to the requirements.<br />•    Interface testing: Testing of menu options, buttons, bookmarks, history, settings, and navigation flow of the application.<br />•    Services testing: Testing the services of the application online and offline.<br />•    Performance testing: Testing the performance of the application by changing the connection from 2G, 3G to WIFI, sharing the documents, battery consumption, etc.<br />•    Operational testing: Testing of backups and recovery plan if a battery goes down, or data loss while upgrading the application from a store.<br />•    Installation tests: Validation of the application by installing /uninstalling it on the devices.<br />•    Security Testing: Testing an application to validate if the information system protects data or not.</p>
+<p>5.    Mention what is the Android testing strategy?<br />The standard Android testing strategy must include the following test:<br /> • Unit Test<br /> • Integration Test<br /> • Operation Test<br /> • System Test</p>
+<p>6.    Explain Android testing framework?<br />Android testing framework includes three segments <br />• Application Package: It is the target application that requires to be tested <br />• Instrumentation TestRunner: It is a Test Case runner that runs test cases on target application. It includes an SDK tools for building test and a tool that provides APIs for writing program that control an android device, for example, MonkeyRunner <br />• Test Package: It includes two classes, Test case classes, and Mock objects. Test case classes include test methods to perform on target application, while mock object includes mock data that will be used as sample input for test cases.</p>
+<p>7.    List out the best practices for Android Testing?<br />• Developer should prepare the test cases at the same time when they are writing the code <br />• Together with source code all test cases should be stored <br />• Use continuous integration and execute tests every time the code is changed <br />• Avoid using rooted devices and emulators</p>
+<p>8.    Mention what are the common bugs found while mobile testing?<br />• Critical: Your phone system crash when testing particular feature in your device <br />• Block: Unable to do anything though phone is on unless you reboot your device <br />• Major: Unable to perform a function of a particular feature<br />• Minor: Under minor bugs usually GUI bugs fall.</p>
+<p>9.    Explain how A/B testing is done for iOS app?<br />A/B testing for ios includes three steps <br />• Configure a test: It prepares two versions of your iOS app (A&amp;B) and test metric <br />• Test: Tests two iOS versions above on devices simultaneously <br />• Analyze: It select and measure better version to release</p>
+<p>10.    While performing end to end mobile testing what are the major criteria, you have to take in consideration?<br />• Installation <br />• Application launching without having network <br />• Uninstallation of app <br />• Orientation of app if it supports <br />• Testing application performance on a different kind of devices and network scenarios <br />• Testing the application response how it is responding</p>
+<p>11.    List out the most common problem that tester faces while doing mobile testing in Cloud Computing?<br />Challenges that tester faces while doing mobile testing are <br />• Subscription model <br />• High Costing <br />• Lock-in <br />• Internet connectivity issues <br />• Automation is image based and time-consuming <br />• Automation cannot be used outside the framework</p>
+<p>12.    List out some iPhone and iPad testing tools?<br />• iPhone tester: Test your web interface in an i-phone sized frame <br />• Appium: It is a test automation tool used with native and hybrid ios application <br />• iPad Peek: Test your web application using an iPad interface <br />• Test Studio: It enables you to record, build and run automated tests for your iPad and iPhone applications.</p>
+<p><br /></p>
+<h2><strong>API TESTING QUESTIONS (API Community)</strong></h2>
+<ol>
+<li><strong>What is an API and what is its objective?</strong>
+<p><em>API stands for Application Programming Interface. An API is a set of protocols, routines, and tools for building software applications. In general, an API specifies how software components should interact with each other, allowing different software systems to communicate and exchange information. </em><em>APIs can be used for a variety of purposes, such as retrieving data from a remote server, integrating different software systems, and providing access to a particular service or functionality. By defining a clear and standardized way for software systems to communicate with each other, APIs simplify the development process and promote interoperability between different software systems. </em><em>APIs can be public, allowing any developer to use them, or private, limited to specific users or organizations. <br /><br /></em></p></li>
+<li><strong>What tools could be used for API testing?</strong>
+<p><em>Postman: Postman is a popular API testing tool that allows you to send requests to a web API and analyze the responses. It provides a user-friendly interface for creating and managing API requests, as well as a variety of testing features such as automated testing, scripting, and monitoring.</em></p>
+<p><em>SoapUI: SoapUI is an open-source API testing tool that supports both REST and SOAP protocols. It provides a user-friendly interface for creating and managing API requests, as well as a variety of testing features such as data-driven testing, automated testing, and scripting. Less used<br />Swagger:</em></p></li>
+<li><strong>What are the challenges when testing APIs?</strong>
+<p><br /></p><em>Some of the main challenges when Testing APIs: <br /><br /><strong>Lack of documentation: </strong>APIs may have limited or outdated documentation, making it difficult to understand their functionality and behavior.</em>
+<p><em><strong>Complexity</strong>: APIs can be complex, with multiple layers of functionality and different input and output parameters. This can make it difficult to design and execute comprehensive tests that cover all possible scenarios.</em></p>
+<p><em><strong>Data validation</strong>: APIs often handle large amounts of data, and ensuring that the data is properly validated can be a significant challenge. Testing all possible combinations of data can be time-consuming and resource-intensive.</em></p>
+<p><em><strong>Security vulnerabilities</strong>: APIs can be a target for attackers seeking to exploit vulnerabilities or gain unauthorized access to sensitive data. Testing for security vulnerabilities, such as injection attacks, requires specialized knowledge and tools.</em></p>
+<p><em><strong>Integration testing: </strong>APIs are often used to integrate different software systems or services. Testing the integration between different APIs can be challenging, as it requires coordination between different teams and technologies.</em></p>
+<p><em><strong>Performance issues</strong>: APIs can be subject to high traffic volumes, and ensuring that they perform well under heavy loads can be a challenge. Testing for performance issues, such as response time and scalability, requires specialized tools and techniques.<br /><br /></em></p><em><strong>Versioning</strong>: APIs can evolve over time, with new features and functionality being added or removed. Ensuring that tests are updated to reflect these changes and that older versions of the API continue to work as expected, can be a challenge.<br /><br /><strong>Dependency management:</strong> APIs may rely on other systems or third-party services, which can create dependency management challenges.</em><br /><br /><em><strong>Automation challenges:</strong> Testing APIs may require specialized tools and automation frameworks, which can add complexity and require additional testing expertise.</em><br /><br /></li>
+<li><strong>What are the benefits of API testing?</strong><br /><em>API testing provides several benefits that can help to improve the quality, reliability, and efficiency of software development. By detecting defects early, providing faster feedback, improving reliability, increasing test coverage, enabling reusability, and supporting automation, API testing can help teams to deliver high-quality software systems more efficiently.<br /><br /></em></li>
+<li>
+<p>Do you create the collection by yourself? Or Do you received the collection from developers?<br /><br /></p></li>
+<li>
+<p> <strong>When you perform a POST request how do you check that the insert into DB is correct?</strong></p>
+<p><br /><em>When performing a POST request, if the request is intended to insert data into a database, there are several ways to check if the insertion was successful and the data was correctly added to the database. Here are a few ways to do so:</em></p>
+<ol>
+<li><em>Verify the HTTP response status code: A successful POST request should return an HTTP status code of 201 (Created) or 200 (OK) if the resource already exists. If the response code is anything other than 201 or 200, it indicates that the request was not successful.</em></li>
+<li><em>Check the response body: The response body of a successful POST request should contain the data that was inserted into the database or a representation of the new resource created. This can be checked to ensure that the data being inserted is what was intended.</em></li>
+<li><em>Query the database: Another way to check that the data has been correctly inserted into the database is to query the database directly. You can execute a SELECT statement that retrieves the data that was inserted, and then compare it with the data that was sent in the POST request.</em></li>
+<li><em>Check logs: Checking the logs can also provide valuable information on whether the insertion was successful or not. Look for any error messages or exceptions that indicate a problem with the insertion.</em></li></ol>
+<p style="margin-left: 1.5in;"><em><br />It's important to note that the method used to check the insertion into the database may vary depending on the specific use case and the technologies used.</em></p>
+<p><br /></p></li>
+<li><strong>Can you describe the meaning of some HTTP status codes?</strong><br />
+<p><em>200 OK - The request was successful.</em></p>
+<p><em>201 Created - The request was successful and a new resource has been created.</em></p>
+<p><em>204 No Content - The request was successful, but there is no content to return.</em></p>
+<p><em>400 Bad Request - The request was malformed or invalid.</em></p>
+<p><em>401 Unauthorized - The request requires authentication, and the user does not have the necessary credentials.</em></p>
+<p><em>403 Forbidden - The user is authenticated but does not have permission to access the requested resource.</em></p>
+<p><em>404 Not Found - The requested resource was not found.</em></p>
+<p><em>405 Method Not Allowed - The requested method is not supported for the specified resource.</em></p>
+<p><em>500 Internal Server Error - An error occurred on the server while processing the request.<br /><br /></em></p><em><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" class="">https://en.wikipedia.org/wiki/List_of_HTTP_status_codes</a></em></li>
+<li><strong>Example of API that you remember, scenarios to validate API is working correctly automation with APIs.</strong><br /><br /></li>
+<li><strong>What are the main differences between API and Web Service?</strong><br />
+<p><em>APIs and web services are related concepts in software development, but there are some differences between them. Here are some of the main differences between APIs and web services:</em></p>
+<p><em>Protocol: APIs can use a variety of protocols for communication, including HTTP, REST, and SOAP. Web services, on the other hand, typically use SOAP (Simple Object Access Protocol) or REST (Representational State Transfer) as their communication protocol.</em></p>
+<p><em>Interface: APIs are more flexible than web services in terms of their interface, as they can use different data formats and programming languages. Web services, on the other hand, typically use XML or JSON for data interchange, and rely on specific programming languages for their implementation.</em></p>
+<p><em>Standardization: Web services are more standardized than APIs, as they follow specific protocols and standards for communication and data interchange. APIs, on the other hand, may not follow a standard protocol or format, and may vary in their implementation.</em></p>
+<p><em>Use case: APIs are typically used for exposing specific functionality or data from a software system, whereas web services are used for more complex and integrated systems that require interoperability between different platforms and technologies.</em></p>
+<p><em>Implementation: APIs can be implemented using a variety of techniques, including libraries, frameworks, and programming languages. Web services, on the other hand, are typically implemented using specific technologies and platforms, such as Java EE or .NET.<br /><br /></em></p></li>
+<li><strong>What are the common API testing types?</strong><br />Public and private</li>
+<li><strong>What must be checked when performing API testing?</strong><br />
+<p><em>When performing API testing, there are several key things that should be checked to ensure that the API functions correctly and as intended. Here are some of the most important things to check:</em></p>
+<p><em>API Endpoints: Ensure that all API endpoints are accessible and that they return the expected data in the correct format (e.g. JSON or XML).</em></p>
+<p><em>Data Validation: Verify that the data being returned from the API is valid, complete, and accurate.</em></p>
+<p><em>Headers:</em></p>
+<p><br /></p>
+<p><em>Error Handling: Check that the API returns the appropriate error codes and error messages when it encounters errors or exceptions.</em></p>
+<p><em>Performance: Test the API's performance by sending a large number of requests and measuring the response time, throughput, and other performance metrics.</em></p>
+<p><em>Security: Ensure that the API is secure by checking for potential vulnerabilities such as SQL injection, cross-site scripting (XSS), and other security issues.</em></p>
+<p><em>Authentication and Authorization: Test the API's authentication and authorization mechanisms to ensure that only authorized users can access sensitive data or perform certain actions.</em></p>
+<p><em>Integration with other systems: Verify that the API can properly integrate with other systems and services that it needs to interact with.</em></p>
+<p><em>By checking all of these aspects, you can ensure that the API is functioning correctly and that it meets the needs of your users.<br /><br /></em></p></li>
+<li><strong>What are common API errors that are often founded?</strong><br />
+<p><em>400 Bad Request: This error indicates that the server could not understand the request due to invalid syntax or missing parameters.</em></p>
+<p><em>401 Unauthorized: This error indicates that the request requires authentication, but the user or client does not have the required credentials or permission to access the resource.</em></p>
+<p><em>403 Forbidden: This error indicates that the server understood the request, but the user or client is not authorized to access the resource.</em></p>
+<p><em>404 Not Found: This error indicates that the requested resource could not be found on the server.</em></p>
+<p><em>405 Method Not Allowed: This error indicates that the request method (e.g. GET, POST, PUT, DELETE) is not allowed for the requested resource.</em></p>
+<p><em>500 Internal Server Error: This error indicates that the server encountered an unexpected condition that prevented it from fulfilling the request.</em></p>
+<p><em>503 Service Unavailable: This error indicates that the server is currently unable to handle the request due to temporary overloading or maintenance.<br /><br /></em></p></li>
+<li><strong>What is a RESTFul Web Service?</strong><br />
+<p><em>RESTful web services are web services that adhere to the principles of the REST architectural style. They use HTTP methods (GET, POST, PUT, DELETE, etc.) to manipulate resources, and they use URIs (Uniform Resource Identifiers) to identify and access those resources.</em></p>
+<p><em>In a RESTful web service, resources are represented as documents or data structures, and they can be accessed and manipulated using a standard set of HTTP methods. For example, a RESTful web service might use the GET method to retrieve a resource, the POST method to create a new resource, the PUT method to update an existing resource, and the DELETE method to remove a resource.</em></p>
+<p><em>In REST, resources are manipulated using HTTP methods such as GET, POST, PUT, and DELETE. Each HTTP method corresponds to a specific action that can be performed on a resource:</em></p>
+<p><em>GET: Retrieves the current state of a resource.</em></p>
+<p><em>POST: Creates a new resource.</em></p>
+<p><em>PUT: Updates an existing resource or creates a new resource if it does not exist.</em></p>
+<p><em>DELETE: Removes a resource.</em></p>
+<p><em>By using resources as the basis for web services and APIs, REST enables a clear separation between the client and server components of an application, as well as a consistent and standardized interface for accessing and manipulating those resources.<br /><br /></em></p></li>
+<li><strong>What is a “Resource” in REST?</strong></li>
+<li><strong>Is there any difference between PUT, POST and PATCH operations?</strong><br />POST    Create a new resource: Used to create something. Every call creates a new item.<br />PUT    Replace an existing resource: Used to update/replace a resource entirely (or create it at a specific URI).<br />PATCH    Modify part of a resource: Used to partially update a resource — only send the fields you want to change.<br /><br /></li>
+<li><strong>Talk about some common protocols used in API testing</strong>.<br />
+<p><em>HTTP (Hypertext Transfer Protocol): HTTP is the primary protocol used for communication between web servers and clients. It is used for transferring data over the internet, and it forms the basis of RESTful web services.</em></p>
+<p><em>HTTPS (Hypertext Transfer Protocol Secure): HTTPS is a secure version of HTTP that uses encryption to protect the communication between the web server and the client. It is commonly used for APIs that handle sensitive data such as user credentials, payment information, and personal information.</em></p>
+<p><em>SOAP (Simple Object Access Protocol): SOAP is a messaging protocol that uses XML (eXtensible Markup Language) to exchange information between web services. It is often used in enterprise applications that require a high level of security and reliability.</em></p>
+<p><em>JSON-RPC (JavaScript Object Notation Remote Procedure Call): JSON-RPC is a lightweight protocol that uses JSON to transfer data between the client and the server. It is often used in applications that require low latency and high throughput.</em></p>
+<p><em>GraphQL (Graph Query Language): GraphQL is a query language and runtime that provides a more flexible and efficient alternative to RESTful APIs. It allows clients to specify exactly what data they need and receive only that data, reducing the amount of data transferred over the network.<br /><br /></em></p></li>
+<li><strong>How does SOAP work</strong>?<br />
+<p><em>SOAP (Simple Object Access Protocol) is a messaging protocol used for exchanging structured data between web services. It uses XML (eXtensible Markup Language) to define the format of the messages and relies on HTTP (Hypertext Transfer Protocol) or other transport protocols to send the messages over the network.</em></p>
+<p><em>Here are the basic steps involved in how SOAP works:</em></p>
+<p><em>A client sends a SOAP request to a server: The SOAP request is sent over the network using HTTP or another transport protocol. The request typically includes the following components:</em></p>
+<p><em>Envelope: A mandatory wrapper element that defines the start and end of the message.</em></p>
+<p><em>Header: An optional element that contains any additional information such as security credentials or transaction identifiers.</em></p>
+<p><em>Body: A mandatory element that contains the data being transmitted.</em></p>
+<p><em>The server receives the SOAP request: The server receives the request and extracts the information contained in the SOAP message.</em></p>
+<p><em>The server processes the SOAP request: The server uses the information contained in the SOAP message to perform the requested action, such as retrieving data or updating a record.</em></p>
+<p><em>The server sends a SOAP response to the client: The server sends a SOAP response back to the client using the same format as the request. The response typically includes the following components:</em></p>
+<p><em>Envelope: A mandatory wrapper element that defines the start and end of the message.</em></p>
+<p><em>Header: An optional element that contains any additional information such as status codes or error messages.</em></p>
+<p><em>Body: A mandatory element that contains the response data.</em></p>
+<p><em>The client receives the SOAP response: The client receives the response and extracts the information contained in the SOAP message.</em></p>
+<p><em>The client processes the SOAP response: The client uses the information contained in the SOAP message to perform the necessary actions, such as displaying the data or handling errors.<br /><br /></em></p></li>
+<li><strong>What is the major obstacle users face when using SOAP?</strong><br />
+<p><em>One of the major obstacles that users face when using SOAP (Simple Object Access Protocol) is the complexity and verbosity of the XML (eXtensible Markup Language) message format. SOAP messages can be large and difficult to read, which can make development and debug more challenging.</em></p>
+<p><em>In addition, SOAP requires a more robust infrastructure to support the messaging protocol. This can include additional layers of security, message validation, and transport protocols, which can increase the complexity and cost of implementing and maintaining SOAP-based web services.</em></p>
+<p><em>Another potential issue with SOAP is that it can be less flexible than other messaging protocols, such as REST (Representational State Transfer). SOAP defines a rigid message format and API structure, which can limit the ability to evolve and adapt the web service over time. This can be a challenge for applications that require rapid iteration and frequent updates.</em></p>
+<p><em>Finally, SOAP can be slower and more resource-intensive than other messaging protocols. The XML parsing and message validation required by SOAP can add overhead and reduce performance, especially for large messages or high-throughput applications.</em></p>
+<p><em>Despite these challenges, SOAP continues to be widely used in enterprise applications that require a high level of security and reliability. However, for many modern applications, REST or other lightweight messaging protocols may be a more suitable choice.<br /><br /></em></p></li>
+<li><strong>What are the elements of a SOAP message structure?</strong><br />
+<p><em>Envelope: The Envelope element is the root element of the SOAP message and defines the start and end of the message. The Envelope element is mandatory and must contain the Header and Body elements.</em></p>
+<p><em>Header: The Header element is an optional element that contains application-specific information such as authentication credentials, transaction information, or other metadata. The Header element must be a child of the Envelope element.</em></p>
+<p><em>Body: The Body element is a mandatory element that contains the data being transmitted in the SOAP message. The Body element must be a child of the Envelope element.</em></p>
+<p><em>Fault: The Fault element is an optional element that contains information about errors or faults that occurred during the processing of the SOAP message. The Fault element must be a child of the Body element and is used to indicate that the message could not be processed successfully.<br /><br /></em></p></li>
+<li><strong>What are the differences between SOAP and REST?</strong><br />
+<p><em>SOAP (Simple Object Access Protocol) and REST (Representational State Transfer) are two popular web service architectures used to exchange information between applications. While both architectures share some similarities, there are several key differences between SOAP and REST:</em></p>
+<p><em>Message format: SOAP uses XML (eXtensible Markup Language) to format messages, whereas REST uses a variety of formats including JSON (JavaScript Object Notation) and XML.</em></p>
+<p><em>Messaging protocol: SOAP is a messaging protocol, meaning it provides a formal set of rules for exchanging messages between applications. REST, on the other hand, is an architectural style that uses a set of guidelines for building web services.</em></p>
+<p><em>API design: SOAP typically defines a rigid API structure and message format, making it less flexible than REST. REST, on the other hand, is more flexible and allows for more customization of API design and message formats.</em></p>
+<p><em>Transport protocol: SOAP can use a variety of transport protocols including HTTP (Hypertext Transfer Protocol), SMTP (Simple Mail Transfer Protocol), and TCP (Transmission Control Protocol). REST, on the other hand, typically uses HTTP or HTTPS (HTTP Secure).</em></p>
+<p><em>Resource-based vs. action-based: REST is a resource-based architecture, meaning it models resources (such as customers, orders, or products) as URLs that can be accessed using HTTP methods such as GET, POST, PUT, and DELETE. SOAP, on the other hand, is action-based, meaning it focuses on performing operations (such as create, read, update, and delete) on objects.</em></p>
+<p><em>Security: SOAP provides built-in security features such as WS-Security, while REST relies on transport-layer security such as SSL/TLS (Secure Sockets Layer/Transport Layer Security).<br /><br /></em></p></li>
+<li>How can we tell if the API we are validating was called correctly when it returns 200 but there are no results stored in the database?<br /><br /></li>
+<li><strong>Talk about code versioning tools that you have worked with or know about.</strong><br /><br /></li>
+<li>What are the reasons why an action in the UI is not posted in the backend?<br /><br /></li>
+<li>How do you test an API?<br /><br /></li>
+<li>What are the best practices you can apply when testing API?<br /><br /></li>
+<li>Do you have experience working with GraphQL?</li>
+<li>Types of authentication</li></ol>
+<p><br /></p>
+<h2><strong>Performance Testing Questions (Martin Zapata)</strong></h2>
+<ol>
+<li>What do you understand by Performance Testing?</li>
+<li>What are the types of Performance Testing?</li>
+<li>What are some of the commonly available tools for performance testing?</li>
+<li>What are some of the common performance bottlenecks and how do they impact your application?</li>
+<li>What is the need for conducting performance tests?</li>
+<li>What are some of the common problems that occur due to poor performance?</li>
+<li>What do you understand by performance tuning?</li>
+<li>How is performance testing different from performance engineering?</li>
+<li>What are the steps involved in conducting performance testing?</li>
+<li>What do you understand by distributed testing?</li>
+<li>What is the metric that determines the data quantity sent to the client by the server at a specified time? How is it useful?</li>
+<li>What do you mean by profiling in performance testing?</li>
+<li>What is load tuning?</li>
+<li>What kind of testing deals with subjecting the application to a huge amount of data?</li>
+<li>What do you know about Scalability testing?</li>
+<li>Why is JMeter used for?</li>
+<li>How is performance testing different from functional testing?</li></ol>
+<p><br /></p>
+<h3><strong>Performance Testing Interview Questions for Experienced (Martin Zapata)</strong></h3>
+<ol>
+<li>What are the differences between benchmark testing and baseline testing?</li>
+<li>Why is it preferred to perform load testing in an automated format?</li>
+<li>On what kind of values can we perform correlation and parameterization in the LoadRunner tool?</li>
+<li>How can we identify situations that belong to performance bottlenecks?</li>
+<li>Can we perform spike testing in JMeter? If yes how?</li>
+<li>What are the pre-requisites to enter and exit a performance test execution phase?</li>
+<li>How is load testing different from stress testing?</li>
+<li>How is endurance testing different from spike testing?</li>
+<li>What are the best ways for carrying out spike testing?</li>
+<li>What do you mean by concurrent user hits in load testing?</li>
+<li>Can the end-users of the application conduct performance testing?</li>
+<li>What are the metrics monitored in performance testing?</li>
+<li>What are the common mistakes committed during performance testing?</li>
+<li>When should we conduct performance testing for any software?</li>
+<li>What are some of the best tips for conducting performance testing?</li></ol>
+<p><br /></p>
+<h2><strong>SQL questions and exercises (Mauri Gulloto)</strong></h2>
+<ol>
+<li>During your testing experience, have you used SQL? For what?</li>
+<li>What command do you usually use in SQL?</li>
+<li>What is the importance of having testers who can validate data in the DB? What is the advantage in the team?</li>
+<li>How would you describe your query writing skills?</li>
+<li>If there is a DB1 and I migrate to DB2, how do I make sure that DB2 is ok?</li>
+<li>What is joins? What types of joins are there?</li>
+<li>How is a join constructed?</li>
+<li>What is needed to join tables</li>
+<li>What would be the syntax of the UPDATE command?</li>
+<li>What is it or what is it for? -Group by: -Order by: -Having:</li>
+<li>When do you use select, update, inner join?</li>
+<li>What are the typical tests you would run on the tables to determine if they are good or bad?</li>
+<li>How are added or deleted columns validated?</li>
+<li>How is the column type and description validated?</li>
+<li>How do you know the size of the tables you are working with?</li>
+<li>What is Distinct in SQL?</li>
+<li>
+<p>List of brands that a dealer sells ordered by brand and quantity:</p>
+<p><br />select dealer, brand, count(brand) as cbrand<br />from dealership<br />group by dealer, brand<br />order by dealer, brand, cbrand</p></li>
+<li>
+<p><br /></p>
+<p>If you would like to display the list of dealerships that sell more than 3 cars per brand:</p>
+<p><br />select dealer, brand, count(brand) as cbrand<br />from dealership<br />group by dealer, brand<br />having count (brand)&gt;3<br />order by dealer, brand, cbrand</p>
+<p><br /></p></li>
+<li>
+<p>We have a company and many employees in it, how would I build an SQL query that shows how many employees work in the company by department:</p>
+<p>How would you show only the information of those departments that contain more than 10 people:</p>
+<p><br /></p></li>
+<li>
+<p>What does the following query do:</p>
+<p><br /></p>
+<p>SELECT TELE_NBR_1, FINAL_PAY_DATE, RES_BUS, TELE_NBR_2,<br />CASE<br />WHEN RES_BUS = 'I' AND TELE_NBR_2 = '0000000000' THEN 'Y'<br />ELSE 'N'<br />END AS FLAG<br />FROM PDFIX.COLLECT_TAB<br />WHERE COLLECT_TAB.FINAL_PAY_DATE BETWEEN TRUNC(SYSDATE) AND TRUNC (SYSDATE+5)<br />AND STATE &lt;&gt; 'WV'</p>
+<p><br /></p>
+<p><br /></p></li>
+<li>
+<p>You want to filter from the query all the records that have the FLAG filter equal to 'N', what would you change?</p></li></ol>
+<p><br /></p>
+<h2><strong>REPORTING_ETL questions </strong></h2>
+<ol>
+<li>What experience do you have in data migration projects?</li>
+<li>Do you know what BI and Data warehouse are?</li>
+<li>Do you know what big data is and where it is applied? Give examples</li>
+<li>How would you do the testing process in Data Warehouse?</li>
+<li>Why would you want to be part of a BI team? Testing data, testing reports?</li>
+<li>What kinds of things can you prove in a Report?</li>
+<li>Do you have any experience with any ETL technology?</li>
+<li>If you are testing a Web form, how do you verify that the information was stored correctly after giving Submit?</li>
+<li>If you are migrating from a source database to a destination database, what would you consider to test?</li>
+<li>How would you validate that the output of an ETL is correct and as expected?</li>
+<li>What kind of defects have you reported when you are testing ETL?</li>
+<li>What kinds of things do you think should be taken into account when testing a report?</li></ol>
+<p><br /></p>
+<h2><strong>Automation Testing questions (Automation Community)</strong></h2>
+<ol>
+<li>Do you have knowledge of AUTOMATION?</li>
+<li>What development IDEs do you know?</li>
+<li>What development languages do you work with to automate?</li>
+<li><strong>Concepts of CSS vs XPath vs IDs? (Paulina Luna)</strong>
+<p><em>These are different ways to locate elements in the DOM:</em></p>
+<ul>
+<li style="font-style: italic;" data-uuid="87a7cadf-7fdd-456a-8e07-8ac40925ec97"><em>ID is the fastest and most reliable locator if it’s available and unique. For example: #username.</em></li>
+<li style="font-style: italic;" data-uuid="e1d75f98-ed9d-443e-a808-af07106c2c31"><em>CSS selectors are widely used in front-end development and are often faster than XPath. For example: .btn-primary or input[name='email'].</em></li>
+<li style="font-style: italic;" data-uuid="21eb0b1f-d5d7-4316-80bd-9da1c8666831"><em>XPath is more powerful when you need to navigate complex DOM structures, such as locating elements based on hierarchy or text content. For example: //div[@class='login']/input.</em></li></ul>
+<p><em>In automation, I prefer using IDs or CSS when possible, and use XPath only when needed for more complex scenarios.<br /><br /></em></p></li>
+<li><strong>What is a test framework? (Paulina Luna)</strong>
+<p><em>A test framework is a set of guidelines, tools, and practices that help structure and manage automated tests. It includes features for running test cases, reporting results, managing test data, and organizing the code efficiently.</em></p>
+<p><em>For example, in my case, I use JUnit as the test framework with Java, which helps structure the tests, set up test conditions, and report results.<br /><br /></em></p></li>
+<li><strong>What are the apparent advantages of a test framework? (Paulina Luna)</strong>
+<p><em>Using a test framework brings a lot of advantages. It helps keep the code organized and reusable, especially when using something like the Page Object Model design pattern. It also makes test scripts easier to read and maintain, which is really helpful as the project grows.</em></p>
+<p><em>Most frameworks also come with built-in reporting and logging, so it’s easier to track test results and spot issues. They usually integrate well with CI/CD tools, which helps with automation in the development pipeline. And when it comes to scaling, frameworks let you run tests in parallel and manage large test suites more efficiently. Overall, a good framework brings structure, consistency, and reliability to the testing process.<br /><br /></em></p></li>
+<li>Have you built frameworks from scratch using selenium web driver or have you used ready-made frameworks?</li>
+<li><strong>What are the attributes of a good framework? (Paulina Luna) <br /></strong><br /><em>A good automation framework should be easy to maintain and reuse, especially as the app grows. It should support scalability, like running tests in parallel, and make tests clear and readable. Being able to configure environments easily, integrate with tools like Git and CI/CD, and generate useful reports is also important. And if it supports data-driven testing, it helps cover more scenarios efficiently without duplicating code.<br /><br /></em></li>
+<li>How do you order your tests? (In the code)</li>
+<li><strong>Do you know what Page Object Model (POM) is? (Paulina Luna)</strong><br />
+<p><em>Yes, Page Object Model is a design pattern where each page of the application is represented by a class with locators and methods. It helps keep test code clean, reusable, and easy to maintain.<br /><br /></em></p></li>
+<li><strong>When is it preferable to use the Page Object Model? and when not? (Paulina Luna)</strong><br />
+<p><em>I think Page Object Model is really useful in medium to large projects, especially when there’s a lot of repeated interactions with the same pages. It makes the code easier to maintain and understand.</em></p>
+<p><em>But in very small projects or quick exploratory tests, using POM can be a bit too much. So, I try to keep things simple when it makes sense. If I know the project will grow or be reused later, then I definitely go with POM.<br /><br /></em></p></li>
+<li><strong>When should it be automated? (Paulina Luna)</strong><br />
+<p><em>A test should be automated when it's stable, repetitive, and run frequently — like regression or smoke tests. It’s also worth automating when fast feedback is needed or when testing across multiple data sets or browsers. But if the test is exploratory or the feature is still changing a lot, manual testing is usually better.<br /><br /></em></p></li>
+<li><strong>Things on a page you wouldn't automate? (Paulina Luna)</strong><br />
+<p><em>I usually avoid automating things that are unstable or change frequently, like animations, hover effects, or content that updates dynamically without much user impact. I also skip purely visual elements like layout alignment or font styles — those are better suited for visual testing tools or manual review. Exploratory areas or early-stage features still in design also aren’t ideal for automation.<br /><br /></em></p></li>
+<li><strong>Do you know the concept of BDD? (Paulina Luna)</strong><br />
+<p><em>Yes, BDD stands for Behavior-Driven Development. It’s a collaborative approach where developers, testers, and business stakeholders define application behavior using clear, human-readable language.</em></p>
+<p><em>In testing, BDD is usually implemented using tools like Cucumber, where test scenarios are written in Gherkin syntax — using 'Given, When, Then' steps. This makes tests easy to understand for both technical and non-technical team members and helps ensure that everyone is aligned on the expected behavior of a feature.<br /><br /></em></p></li>
+<li>List the advantages of using Selenium as a testing tool? What about Cypress? Advantages and disadvantages</li>
+<li><strong>Naming Element Selectors in Automation. (Paulina Luna)</strong><br />
+<p><em><span>I name element selectors based on their function, like </span><span>loginButton</span><span> or </span><span>emailInput</span><span>, to keep the code readable and meaningful. I follow consistent naming conventions, especially when using Page Object Model, and avoid generic names like 'button1' or 'input2'.</span></em></p></li>
+<li data-uuid="47fef5fd-fc1d-4b7b-8298-bc231429732c"><em><span>Using the AI could you create test cases for the next page? Then automate them using Playwright (share screen while you do it). (Daniel) </span></em>
+<p style="margin-left: 40.0px;"><em><span><ac:image ac:height="250"><ri:attachment ri:filename="AI_Image.png" /></ac:image></span></em></p>
+<p style="margin-left: 40.0px;"><em>Here, the client wants to see that you know how to use AI effectively. You are expected to generate test cases by writing a prompt. This prompt should include positive, negative, and edge (corner) cases, as well as the main functionalities visible on the screen. You should also be able to classify the tests into different test suites.</em></p>
+<p style="margin-left: 40.0px;"><em>Once all test cases and their steps are defined, you need to create another prompt to automate those test cases. You can start by automating just one test case. This automation prompt should follow good practices, such as applying the Page Object Model (POM), avoiding hardcoded data (using strategies like test data generators, JSON files, databases, etc.), and ensuring that each test includes clear and meaningful assertions.</em></p></li>
+<li data-uuid="27ec3e54-ab31-4cdb-a7ca-fc15092c1e6c"><em><span>What are the metrics that you could use in a AI-driven development project? Traditional project vs AI project</span></em></li></ol>
+<p style="margin-left: 40.0px;"><em><span>Some metrics that you could mention are </span></em>:</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li data-uuid="ba423d3e-1057-4b06-bee2-320ab9997913">Escaped defects (especially critical ones)</li>
+<li data-uuid="621d92b9-0e6f-407a-b8d4-37e4487ef47a">Defect discovery phase (earlier is better)</li>
+<li data-uuid="2a3eaf97-4e8e-460d-86d3-4e61dde2d6b6">Time from change to confidence</li>
+<li data-uuid="4502ff58-d63c-4d0d-a381-b2052dbabda0">Rework due to missed assumptions</li></ul></li></ul>
+<p><em> </em></p>
+<p><br /></p>
+<h2><strong>Security Testing question </strong></h2>
+<ol>
+<li>What is Security Testing?</li>
+<li>What is “Vulnerability”?</li>
+<li>What is Intrusion Detection?</li>
+<li>What is “SQL Injection”?</li>
+<li>List the attributes of Security Testing?</li>
+<li>What is XSS or Cross-Site Scripting?</li>
+<li>What are the SSL connections and an SSL session?</li>
+<li>What is “Penetration Testing”?</li>
+<li>Why “Penetration Testing” is important?</li>
+<li>Name the two common techniques used to protect a password file?</li>
+<li>List the full names of abbreviations related to Software security?</li>
+<li>What is ISO 17799?</li>
+<li>List down some factors that can cause vulnerabilities?</li>
+<li>List the various methodologies in Security testing?</li>
+<li>List down the seven main types of security testing as per Open Source Security Testing methodology manual?</li>
+<li>What is SOAP and WSDL?</li>
+<li>List the parameters that define an SSL session connection?</li>
+<li>What is file enumeration?</li>
+<li>List the benefits that can be provided by an intrusion detection system?</li>
+<li>What is HIDS?</li>
+<li>List down the principal categories of SET participants?</li>
+<li>Explain “URL manipulation”?</li>
+<li>What are the three classes of intruders?</li>
+<li>List the component used in SSL?</li>
+<li>What is port scanning?</li>
+<li>What is a Cookie?</li>
+<li>What are the types of Cookies?</li>
+<li>What is a honeypot?</li>
+<li>List the parameters that define an SSL session state?</li>
+<li>Describe the Network Intrusion Detection system?</li></ol>
+<h2><strong>Salesforce Testing questions (Andrea Sabella)</strong></h2>
+<ol>
+<li data-uuid="72723c66-69e6-4f82-9362-2d496e3a6f08"><strong>What is Salesforce testing?</strong><br />Salesforce testing is a type of software testing that is specific to Salesforce. It is the process of validating a Salesforce configuration and customization in order to identify vulnerabilities whenever an update, configuration, or customization is made. Additionally, end-to-end testing ensures that Salesforce integrations function as expected. <br /><br /></li>
+<li data-uuid="fe1b9e1e-9d72-4634-8b34-57f0bdedfcde"><strong>What is the Salesforce testing lifecycle?</strong><br />
+<p>The Salesforce testing cycle consists of five basic steps:</p>
+<p>· Requirement gathering, when the business requirements of the application being developed are identified</p>
+<p>· Test planning, when the test strategy, objectives, and plan are defined</p>
+<p>· Test environment setup, which involves gaining access to a Salesforce sandbox and configuring test data</p>
+<p>· Test execution, which involves running the test cases and documenting any bugs identified</p>
+<p>· Test closure, which is the process of writing up a test summary after all test cases have been run and all bugs have been fixed.<br /><br /></p></li>
+<li data-uuid="68641469-02ee-4b6b-9793-645e2c02fdf5"><strong>How are changes tested in Salesforce before being deployed to Production?</strong><br />
+<p>· A fundamental concept of any IT system is that changes should never be made in Production. They need to be tested in a safe environment to ensure nothing breaks and user processes are not disrupted.</p>
+<p>· Salesforce provides a feature known as Sandboxes. These replicate your Production configuration, giving you a safe environment to test changes and implement new features.</p>
+<p>· Sandboxes come in different flavours, ranging from a Developer sandbox that only contains your custom configuration, all the way through to Full Copy Sandboxes, that contain all your configuration and data.<br /><br /></p></li>
+<li data-uuid="5f0f0619-1a7b-4b90-ab15-16da74da9f3a"><strong>What are objects in Salesforce and how are they used?</strong><br />
+<p>In normal database terms, an object in Salesforce is simply a table of data. A table of data will contain various fields, and, in turn, these fields contain information like an email address, phone number, or company name.</p>
+<p>There are two types of objects in Salesforce: <strong>standard </strong>and <strong>custom</strong>. Standard objects are those that come out of the box with Salesforce products. For example, in most Salesforce products, Accounts &amp; Contacts come as standard. In Sales Cloud, you will get objects such as Lead &amp; Opportunity, whilst in Service Cloud, Cases &amp; Entitlements will be standard.</p>
+<p>Custom Objects, on the other hand, are created by you. These are the objects that can be created as your foundation for building custom applications.<br /><br /></p></li>
+<li data-uuid="d6c593a4-b6f2-4ebd-aa57-0c7f6b168b36"><strong>What are the main types of relationships you can create between objects in Salesforce?</strong><br />
+<p>Creating relationships between Salesforce objects is a fundamental skill. It’s important to create them in a scalable way, ensuring you pick the right relationship for the right solution.</p>
+<p>The most common types are the Lookup and Master-detail relationships. Lookups can be defined as loosely coupled, meaning that you can relate records easily to other records in a one-to-many fashion.</p>
+<p>Master-detail relationships, on the other hand, are tightly coupled. This means that a child record cannot exist without a parent record, and if a parent record is deleted, the child also gets deleted with it. For a full overview of all seven Salesforce relationships.<br /><br /></p></li>
+<li data-uuid="be4855bc-bb2b-4daa-93a1-33fb9b98d6c6"><strong>What is Salesforce Service Cloud?</strong><br />Salesforce Service Cloud is a CRM platform for customer service and support. Service Cloud is designed for automating case routing and accelerating case resolution for support agents, whereas Sales Cloud focuses on sales activities.<br /><br /></li>
+<li data-uuid="fced3ffe-6c3b-42ae-99e6-ed551482d5e0"><strong>What is Salesforce Sales Cloud and what are its main features?</strong><br />
+<p>Sales Cloud is Salesforce-integrated sales automation software designed to support sales, marketing, and customer service. It is a fully customizable product that consolidates all customer data on an integrated platform that includes marketing, lead generation, sales, customer service, and business analytics, and it also provides access to tens of thousands of applications.</p>
+<p>The main features of Sales Cloud are:</p>
+<p>· Lead management</p>
+<p>· Account and contact management</p>
+<p>· Opportunity management</p>
+<p>· Pipeline and forecast management<br /><br /></p></li>
+<li data-uuid="934dff9b-3750-4cab-bb60-b9f5eebcb8fb"><span style="color:var(--ds-text,#333333);"><strong>Can you describe the main differences between Sales Cloud &amp; Service Cloud?</strong><br /></span>
+<p>Sales and Service Cloud both act as the core CRM platforms for Salesforce and will be used by the majority of organizations. While both share some similarities, they are distinctly different products that contain different sets of features for their specific function.</p>
+<p><strong>Sales Cloud: </strong>This product is designed to support businesses with their sales cycle – taking a potential customer on a journey, from qualifying them through the Lead object to converting them into an Opportunity where the main sales cycle takes place. Sales Cloud also has several other features to support this process, from quoting to forecasting.</p>
+<p><strong>Service Cloud: </strong>Service Cloud, on the other hand, helps organizations with their customer support process. Customers initiate a support process by emailing, calling, or submitting an online form. Once this case has been created in Salesforce, agents can use features such as a knowledge base to help find answers to questions and milestones to ensure SLA (Service Level Agreements) are met, as well as features like live chat to talk to customers in real-time.<br /><br /></p></li>
+<li data-uuid="b3246c0a-1bc6-4b16-ba22-f55f8df7c031"><span style="color:var(--ds-text,#333333);"><strong>Can you describe an example sales process that a company might implement?</strong><br /></span>
+<p>Sales Cloud is Salesforce’s most popular product – it’s more than likely that you will need to support this product. This is why it’s more important than ever to be able to recommend and support a company’s sales process.</p>
+<p>When someone refers to a sales process, they are referring to the process that a salesperson will follow in order to sell a product or service to a potential customer. This is then translated into the “Lead Status” and “Opportunity Stage” fields.</p>
+<p>At an extremely basic level, that could look like the following: Qualify &gt; Discover &gt; Analysis &gt; Proposal &gt; Negotiation &gt; Closed Won (or Lost).</p><span style="color:var(--ds-text,#333333);"><br /></span></li>
+<li data-uuid="f2d60fd4-75f3-43d7-beba-15bddd572999"><span style="color:var(--ds-text,#333333);"><strong>How does Case Management work in Service Cloud?</strong><br /></span>
+<p>Case Management in Service Cloud is like the backbone of customer service. This feature enables companies to monitor, manage, and resolve customer problems effectively. Each customer query or complaint creates a ‘case’ that can be assigned to an agent. The agent can then follow up, resolve the issue, and close the case, all within the Service Cloud platform.</p><span style="color:var(--ds-text,#333333);"><br /></span></li>
+<li data-uuid="20a0c7a0-40cb-49c6-ab9e-7b5fffce8365"><span style="color:var(--ds-text,#333333);"><strong>What is SLA, and how is it managed in Salesforce Service Cloud?</strong><br />A Service Level Agreement (SLA) is a documented agreement detailing the standard of service a customer should anticipate from a service provider. In Salesforce Service Cloud, SLAs are managed using Entitlement Processes, which define the timeline and steps to follow for each case based on the SLA. This helps ensure that all cases are resolved within the agreed timeframe.<br /><br /></span></li>
+<li data-uuid="6c10d590-d828-45ca-8afe-cc543b391427"><span style="color:var(--ds-text,#333333);"><strong>What is the difference between Data and Metadata?</strong><br /></span>
+<p>Metadata relates to the fields, configurations, code, logic, and page layouts that go into building the information architecture and the look and feel of your Salesforce environment.</p>
+<p>Data relates to the records that a business relies on, such as Users, Accounts, and Contacts, to name a few. On the other hand, Metadata is the data that describes other data.</p><span style="color:var(--ds-text,#333333);"><br /></span></li>
+<li data-uuid="71f5cecf-a367-4ba2-a8bd-74697c0968b9"><span style="color:var(--ds-text,#333333);"><strong>Can you describe the differences between a Role and a Profile?</strong><br /></span>
+<p>Roles and Profiles are two fundamental concepts of the Salesforce platform. They control what users can see and do on the platform.</p>
+<p>Profiles control what a user can do on the platform – for example, they control what kind of access rights a user has to a certain object, such as create, read, edit, or delete. They also control individual permissions such as “Export Reports”, “Create Dashboard Folders”, or “Modify All Data”.</p>
+<p>Roles, on the other hand, are used to control what users can see. They are designed to open up access through a hierarchy so that more senior members of the organization can see more records. For example, someone at the bottom of the hierarchy, like an Account Executive, might be only able to see their own accounts. But the VP Sales US would be able to see all accounts owned by individuals below them.</p><span style="color:var(--ds-text,#333333);"><br /></span></li>
+<li data-uuid="3834b338-b297-41fc-9f9f-ca3cccef98dc"><strong><span style="color:var(--ds-text,#333333);">Can you name the types of Salesforce reports and the differences between them?</span></strong><span style="color:var(--ds-text,#333333);"><br /></span>
+<p>The reporting capabilities in Salesforce are a favorite amongst users, so it’s important to understand the types of reports and their differences…</p>
+<p><strong>- Tabular</strong>: This is the simplest of reports and is suited just to show lines of data and nothing else. It is similar to an Excel spreadsheet. If you just want to show data without the need to show totals, calculations or groups of data, then this is the report for you. It is also best to use this report type if you are planning to export data.</p>
+<p><strong>- Summary</strong>: As soon as you add a grouping, you will turn the report into a summary report. Summary reports are probably the most commonly used and are great for showing groups of data, e.g., if you want to see the number or value of opportunities per account, you would group your report by Account Name. You can also subgroup fields by dragging them under the initial group.</p>
+<p><strong>- Matrix</strong>: Matrix reports are very similar to a summary, but they allow you to group by rows as well as columns to see different totals. Building on the example above, you might want to see the value of opportunities per account, by month. So you would see that Edge Communications has $100,000 of opportunities in January, $50,000 in February and so on.<br /><br /><strong>- Joined Reports</strong>: Joined reports allow you to create two separate reports so that you can compare data. You could use a Joined report to show the total number of opportunities and cases per account, side by side.</p></li></ol>
+<p><br /></p>
+<h1><u><strong>MORE Questions from an inter<time datetime="2025-02-21" /> </strong></u></h1>
+<ol>
+<li>
+<h3><strong>1️⃣ Background and Experience</strong></h3>
+<ul>
+<li data-uuid="a990f7e3-291d-4a1c-9a23-a51fdb7acfeb">Can you tell me a little about your experience? What have you been working on?</li>
+<li data-uuid="c615b3dd-3b43-4e28-80a5-0eb380240c6f">Have you worked with payment systems? Can you give me one or two examples of the applications you worked on?</li>
+<li data-uuid="11540339-4f5b-4991-be8c-fa3933c010d5">What was your day-to-day work in your last project? What type of tasks did you handle?</li>
+<li data-uuid="c6761347-022d-4337-aa2f-3317659cd616">Have you worked in multiple environments? Which ones?</li>
+<li data-uuid="63a6d093-37be-4084-8d34-5e088d71d42e">Have you worked with agile methodologies?</li>
+<li data-uuid="59d08784-4d72-4957-a107-a8ab48463623">What types of meetings do you know in agile methodologies?</li>
+<li data-uuid="20f265a5-c348-4306-af1e-5a710b9c9efd">What was the lifecycle of a User Story from the moment you took it until you finished it?</li></ul>
+<hr />
+<h3><strong>2️⃣ Manual vs. Automation Testing</strong></h3>
+<ul>
+<li data-uuid="03185c98-7e66-4e65-97cb-266b0447c186">Do you prefer manual or automation testing?</li>
+<li data-uuid="deff51a6-39a8-4494-a722-25caa27507a3">You just started your automation journey—have you written any code or set up everything yet?</li>
+<li data-uuid="81ee3029-94fe-4fe0-ad48-40db33bd13c4">What IDE are you using?</li>
+<li data-uuid="b4b28bef-3c84-4f6b-ad42-59d1c9f97635">How much of your testing was API testing versus front-end testing?</li>
+<li data-uuid="95302896-978f-4763-a835-78ecfdc6d8ce">Did you have an automation team in place?</li></ul>
+<hr />
+<h3><strong>3️⃣ API Testing and Troubleshooting</strong></h3>
+<ul>
+<li data-uuid="30ee1958-8eaa-401c-a714-4bef75c28a23">How did you validate the information sent through the API gateway in the payment system? Once you triggered the request in SOAP UI, how did you verify the response?</li>
+<li data-uuid="7de381aa-1a73-4b6a-bca1-3a5f4425e7ac">Did the developers provide you with a URL to load the SOAP project? How did you set it up, and what kind of requests did you send to the payment system? Can you give examples?</li>
+<li data-uuid="6a23540a-0846-4300-a660-1d300d277800">Regarding Postman: What is a <strong>401 error</strong> and a <strong>503 error</strong>? What are the possible causes of these errors?</li>
+<li data-uuid="3251b280-01f1-4e81-8ec6-04c9574a9b63">If you are testing and encounter a blank page, what do you do?</li>
+<li data-uuid="3b7625f6-7751-4213-a547-bd060121a33b">Do you have experience troubleshooting issues?</li></ul>
+<hr />
+<h3><strong>4️⃣ Tools and Technologies</strong></h3>
+<ul>
+<li data-uuid="861cc148-fb2a-4850-a8e1-d1b5612b694a">Do you have experience with SQL? Can you name some queries you have executed?</li>
+<li data-uuid="ed1e9e9b-9557-4752-966d-37e5d127ecd8">What experience do you have with GitHub? How have you used it?</li>
+<li data-uuid="3f5ccaf6-9a6f-4f80-9887-62140f1e9131">How do you use GitHub in your daily workflow?</li>
+<li data-uuid="ef524b38-1057-4e84-9c38-ecabcd44a283">What experience do you have with Jenkins? How have you used it?</li>
+<li data-uuid="a4b82571-64bb-43fc-ab90-fd462fa46ded">Have you used BrowserStack?</li></ul>
+<hr />
+<h3><strong>5️⃣ Test Planning and Prioritization</strong></h3>
+<ul>
+<li data-uuid="05a73d4f-c862-4670-b3fc-7e2e04dc700d">How do you prioritize your daily tasks?</li>
+<li data-uuid="0b857112-401c-4143-9d39-644d52decfa3">How long was your sprint in your last project?</li>
+<li data-uuid="0cf8a315-bd6c-48eb-859c-ead35c51c87d">How did you handle scope creep? For example, if you committed to a certain amount of work for three weeks but additional tasks were added, how did you manage it?</li>
+<li data-uuid="81c58744-2cf7-43be-b58b-d1da7f7c19e3">What would you do if a task you estimated to complete in X time is taking longer than expected?</li>
+<li data-uuid="d11a1aed-826c-4381-a748-19c979682072">If, halfway through the testing phase, you wanted to add something to the <strong>Acceptance Criteria</strong>, what would you do?</li></ul>
+<hr />
+<h3><strong>6️⃣ Collaboration and Teamwork</strong></h3>
+<ul>
+<li data-uuid="6c4e94af-59ae-43cf-adfe-cae8525de30f">Were you responsible for ensuring the configuration and setup were working, or did you work with someone else?</li>
+<li data-uuid="d90364e6-5df5-4bff-80d9-3fdf58d0faa9">How did you divide the work within the testing team?</li>
+<li data-uuid="97d43b96-c0c6-46c8-8dcc-0937fa495736">What do you value the most when working in a team?</li>
+<li data-uuid="b717f933-f530-43c3-ace1-7403bd044201">What do you do if you don’t understand a User Story when you take it?</li></ul>
+<hr />
+<h3><strong>7️⃣ Cross-Browser &amp; Permissions Testing</strong></h3>
+<ul>
+<li data-uuid="a4606de5-87a5-420c-ab5b-9f21b742523d">Did you test on a single browser? If not, which ones?</li>
+<li data-uuid="23ae0bc5-d134-4773-b899-213fc12aa681">What tests would you run to validate a login for users with different permission levels?</li></ul></li></ol>
+<p><span data-teams="true"><span> </span></span></p>
